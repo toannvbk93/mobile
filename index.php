@@ -62,11 +62,11 @@
                 padding: 0px;
                 margin: auto;
             }
-            .container-fluid { 
+            .container-fluid {
                 padding: 0px;
             }
             .header{
-                position: fixed; 
+                position: fixed;
                 top: 0;
             }
             .content{
@@ -85,18 +85,19 @@
     </head>
     <body>
         <div id="fb-root"></div>
+        <div class="mx-auto" style="width: 500px;">
         <div class="container-fluid header">
-            <div class="row">      
+            <div class="row">
                 <div class="col-xs-2"><button type="button" class="btn btn-primary">
                         <img src="icon/news-icon-1.ico" class="img-responsive"/></button></div>
                 <div class="col-xs-2"><button type="button" class="btn btn-primary">
                         <img src="icon/video-icon-2.png" class="img-responsive"/></button></div>
                 <div class="col-xs-2"><button type="button" class="btn btn-primary">
                         <img src="icon/heart-icon-1.png" class="img-responsive"/></button></div>
+                <!-- <div class="col-xs-2"><button type="button" class="btn btn-primary">
+                        <img src="icon/paint-icon-1.png" class="img-responsive"/></button></div> -->
                 <div class="col-xs-2"><button type="button" class="btn btn-primary">
-                        <img src="icon/paint-icon-1.png" class="img-responsive"/></button></div>
-                <div class="col-xs-2"><button type="button" class="btn btn-primary">
-                        <img src="icon/upload-icon-1.ico" class="img-responsive"/></button></div>   
+                        <img src="icon/upload-icon-1.ico" class="img-responsive"/></button></div>
                 <div class="col-xs-2 dropdown">
                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
                         <img src="icon/menu-icon-1.png" class="img-responsive"/>
@@ -130,28 +131,31 @@
                             <a href="#"><img src="icon/gif-icon.png" class="dropdown-img"/>
                                 <p class="dropdown-text text-muted">  gif</p></a></li>
                     </ul>
-                </div> 
+                </div>
             </div>
         </div>
 
         <div class="container-fluid content">
-            <p>Her name is Pham Thi Thuy Anh</p>
+            <h2>天気が良いですね。散歩しましょう</h2>
             <img src="img/1-1.jpg" alt="img1" class="img-rounded img-responsive" >
             <div class="row">
+               <!-- Write your comments here
                 <div class="col-xs-4">
-                    <div class="fb-like" 
-                         data-href="https://developers.facebook.com/docs/plugins/" 
-                         data-layout="button_count" data-action="like" data-size="large" 
+                    <div class="fb-like"
+                         data-href="https://developers.facebook.com/docs/plugins/"
+                         data-layout="button_count" data-action="like" data-size="large"
                          data-show-faces="false" data-share="false">
                     </div>
                 </div>
+
                 <div class="col-xs-5">
-                    <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" 
+                    <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/"
                          data-layout="button_count" data-size="large" data-mobile-iframe="true">
-                        <a class="fb-xfbml-parse-ignore" target="_blank" 
+                        <a class="fb-xfbml-parse-ignore" target="_blank"
                            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Chia sẻ</a>
                     </div>
                 </div>
+                -->
                 <div class="col-xs-3 center-wrapper">
                     <div class="row">
                         <div class="col-xs-3 center-wrapper">
@@ -170,23 +174,9 @@
                 </div>
             </div>
             <hr>
-            <p>Her name is Luong Nguyen Mai Linh</p>
+            <h2>すみません、ちょっと宜しいでしょうか</h2>
             <img src="img/1-2.jpg" class="img-rounded img-responsive" >
             <div class="row">
-                <div class="col-xs-4">
-                    <div class="fb-like" 
-                         data-href="https://developers.facebook.com/docs/plugins/" 
-                         data-layout="button_count" data-action="like" data-size="large" 
-                         data-show-faces="false" data-share="false">
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" 
-                         data-layout="button_count" data-size="large" data-mobile-iframe="true">
-                        <a class="fb-xfbml-parse-ignore" target="_blank" 
-                           href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Chia sẻ</a>
-                    </div>
-                </div>
                 <div class="col-xs-3 center-wrapper">
                     <div class="row">
                         <div class="col-xs-3 center-wrapper">
@@ -205,23 +195,9 @@
                 </div>
             </div>
             <hr>
-            <p>Her name is Dinh Truc Ly</p>
+            <h2>ちょっと、頼みたいんです。</h2>
             <img src="img/1-3.jpg" class="img-rounded img-responsive" >
             <div class="row">
-                <div class="col-xs-4">
-                    <div class="fb-like" 
-                         data-href="https://developers.facebook.com/docs/plugins/" 
-                         data-layout="button_count" data-action="like" data-size="large" 
-                         data-show-faces="false" data-share="false">
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" 
-                         data-layout="button_count" data-size="large" data-mobile-iframe="true">
-                        <a class="fb-xfbml-parse-ignore" target="_blank" 
-                           href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Chia sẻ</a>
-                    </div>
-                </div>
                 <div class="col-xs-3 center-wrapper">
                     <div class="row">
                         <div class="col-xs-3 center-wrapper">
@@ -240,23 +216,9 @@
                 </div>
             </div>
             <hr>
-            <p>Her name is Dinh Truc Ly. She is beautiful, right??</p>
+            <h2>私はタンでございます。田中社長いらっしゃいますか</h2>
             <img src="img/1-4.jpg" class="img-rounded img-responsive" >
             <div class="row">
-                <div class="col-xs-4">
-                    <div class="fb-like" 
-                         data-href="https://developers.facebook.com/docs/plugins/" 
-                         data-layout="button_count" data-action="like" data-size="large" 
-                         data-show-faces="false" data-share="false">
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" 
-                         data-layout="button_count" data-size="large" data-mobile-iframe="true">
-                        <a class="fb-xfbml-parse-ignore" target="_blank" 
-                           href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Chia sẻ</a>
-                    </div>
-                </div>
                 <div class="col-xs-3 center-wrapper">
                     <div class="row">
                         <div class="col-xs-3 center-wrapper">
@@ -275,23 +237,9 @@
                 </div>
             </div>
             <hr>
-            <p>Her name is Dinh Vu My Hang</p>
+            <h2>いらっしゃいませ、</h2>
             <img src="img/1-5.jpg" class="img-rounded img-responsive" >
             <div class="row">
-                <div class="col-xs-4">
-                    <div class="fb-like" 
-                         data-href="https://developers.facebook.com/docs/plugins/" 
-                         data-layout="button_count" data-action="like" data-size="large" 
-                         data-show-faces="false" data-share="false">
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" 
-                         data-layout="button_count" data-size="large" data-mobile-iframe="true">
-                        <a class="fb-xfbml-parse-ignore" target="_blank" 
-                           href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Chia sẻ</a>
-                    </div>
-                </div>
                 <div class="col-xs-3 center-wrapper">
                     <div class="row">
                         <div class="col-xs-3 center-wrapper">
@@ -311,6 +259,7 @@
             </div>
             <hr>
         </div>
+      </div>
 		<script>
             (function (d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0];
